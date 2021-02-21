@@ -28,7 +28,6 @@ Lip Sync has a simple 3-stage workflow:
 ### LipNet Neural Network
 This model uses the GRID corpus (http://spandh.dcs.shef.ac.uk/gridcorpus/) as a dataset for training LipNet. LipNet is a convolutional Neural Network that identifies lip movements in frames and is capable of translating this into characters and words based on phonemes. It was theorized by Yannis et al at Oxford University. The implementation that we chose to use consisted of a series of python packages executed in Keras and made available open source.  
 ### Python NLTK
-### CUDA
 ### aws
 ```
 print('Listening')
