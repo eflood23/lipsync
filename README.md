@@ -28,7 +28,10 @@ This model uses the GRID corpus (http://spandh.dcs.shef.ac.uk/gridcorpus/) as a 
 ### Python NLTK
 ### CUDA
 ### aws
-
+```
+from google import google
+my_search = google.search('Search terms')
+```
 ## Potential Future Applications
 - With enough datasets and time, Lip Sync's ability to transpose movement into text could be made nearly instant, and help students remain engaged instead of catching up to traditional methods of transposing speech which come with the punishment of long wait times for information.
 - Lip Sync could potentially develop into a real time transcribing phone app for ios and android improving accessibility for teh hearing impaired everywhere
