@@ -5,19 +5,19 @@
 -	Following the lockdown restrictions, most means of education and communication have moved online over Zoom, Discord and Skype. While this has been a minor inconvenience to most of us, the impacts on the hearing impaired community have been nothing short of catastrophic. Online lectures are a whole new challenge with audio and video buffering, subtitles not an option and a fast paced classroom environment.  
 
 # Overview of our Project - Introducing Lip Sync!
-LipSync is an application that performs lip reading using a combination of supervised learning and Natural language Processing (NLP). It can supplement hearing aids in lectures by ignoring background noise (by lipreading and transcribing spoken content), and enable audio independent communication where speech recognition falls short.
+LipSync is an application that performs lip reading using a combination of supervised learning and Natural language Processing (NLP). It can supplement hearing aids in lectures by ignoring background noise (by lipreading and transcribing spoken content), and enable audio independent communication where speech recognition falls short. Lip Sync's ability to transpose movement into text could be made nearly instant, and help students remain engaged instead of catching up to traditional methods of transposing speech which come with the punishment of long wait times for information.
 
 ## Algorithm and Workflow - 5 steps
 ### 1. Accepting video input
 The application accepts video in .mpg format. 
 ### 2. Using LipNet
-
+Using spatiotemporal convolutional neural networks, it encodes the changes in visual information over time to map sequences of lip movements to words. It then uses bi-directional gated recurrent units to determine how much information to persevere and forget, so that the starting and ending of words can be demarcated. Multilayer perceptrons then aggregate all of this information together to finally output a transcription of spoken content. This transcription can then be converted into audio, or even into braille (for those who are visually impaired as well).
 ### 3. Passing LipNet output through a WordBag
 
 ### 4. Parsing text into a computer-readable corpus 
 
 ### 5. Releasing video output with text
-The final output is a video with text added onto it. Current applications of LipNet boast upto a 93% accuracy, 14% higher than the average text to speech software available today. 
+The final output is a video with text added onto it. Current applications of LipNet boast upto a 93% accuracy, 14% higher than the average text to speech software available today. We believe that This prototype could average a surprisingly high word accuracy of between 60 and 80% that could stretch even to 95%.
 
 ## Usage
 
