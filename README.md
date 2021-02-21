@@ -1,9 +1,9 @@
-# Welcome to Lip Sync!
-
-Lip Sync is a lip-reading software that translates lip movements from video into text. Lip-reading is a superior alternative to dictation becuase external noises do not affect the output text. Lip Sync also provides increased accessibility for people with impaired hearing, such as allowing students to attend online classes without any deficits.
+# Introducing Lip Sync!
+LipSync is an application that performs lip reading using a combination of supervised learning and Natural language Processing (NLP). It can supplement hearing aids in noisy environments (by lipreading and transcribing spoken content), and enable audio independent communication where speech recognition fails. 
 
 ## Describe your project
-
+ that translates lip movements from video into text. Lip-reading is a superior alternative to dictation becuase external noises do not affect the output text. Lip Sync also provides increased accessibility for people with impaired hearing, such as allowing students to attend online classes without any deficits.
+ 
 You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
 
 [Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
