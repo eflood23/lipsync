@@ -5,7 +5,7 @@
 -	Following the lockdown restrictions, most means of education and communication have moved online over Zoom, Discord and Skype. While this has been a minor inconvenience to most of us, the impacts on the hearing impaired community have been nothing short of catastrophic. Online lectures are a whole new challenge with audio and video buffering, subtitles not an option and a fast paced classroom environment.  
 
 ## Overview of our Project - Introducing Lip Sync!
-LipSync is an application that performs lip reading using a combination of supervised learning and Natural language Processing (NLP). It can supplement hearing aids in lectures by ignoring background noise (by lipreading and transcribing spoken content), and enable audio independent communication where speech recognition falls short. Lip Sync's ability to transpose movement into text can be nearly instant, and helps students remain engaged instead of catching up to traditional methods of transposing speech which come with the punishment of long wait times for information.
+LipSync is an application that performs lip reading using a combination of supervised learning and Natural language Processing (NLP). It can supplement hearing aids in lectures by ignoring background noise (by lipreading and transcribing spoken content), and enable audio independent communication where speech recognition falls short.
 
 ## Algorithm and Workflow - 5 steps
 ### 1. Accepting video input
@@ -21,7 +21,10 @@ LipSync is an application that performs lip reading using a combination of super
 ### CUDA
 
 ## Potential Future Applications
-
+- With enough datasets and time, Lip Sync's ability to transpose movement into text could be made nearly instant, and helps students remain engaged instead of catching up to traditional methods of transposing speech which come with the punishment of long wait times for information.
 
 # Citations
-'LipNet: End-to-End Sentence-level Lipreading' by Yannis M. Assael, Brendan Shillingford, Shimon Whiteson, and Nando de Freitas (https://arxiv.org/abs/1611.01599).
+1. 'LipNet: End-to-End Sentence-level Lipreading' by Yannis M. Assael, Brendan Shillingford, Shimon Whiteson, and Nando de Freitas (https://arxiv.org/abs/1611.01599).
+2. James Dyson Award - Helen (https://www.jamesdysonaward.org/en-HK/2019/project/helen/)
+3. Implementing Lipnet through Keras (https://github.com/rizkiarm/LipNet)
+4. Text Summarization (https://github.com/urandom/text-summary)
