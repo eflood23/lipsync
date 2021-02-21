@@ -29,8 +29,10 @@ This model uses the GRID corpus (http://spandh.dcs.shef.ac.uk/gridcorpus/) as a 
 ### CUDA
 ### aws
 ```
-from google import google
-my_search = google.search('Search terms')
+print('Listening')
+s3 = boto3.client('s3')
+bucket_name = 'helen-v1bf79919b2e794658b84abfe4dde08f44pkhelenenv-pkhelenenv'
+file_names = []
 ```
 ## Potential Future Applications
 - With enough datasets and time, Lip Sync's ability to transpose movement into text could be made nearly instant, and help students remain engaged instead of catching up to traditional methods of transposing speech which come with the punishment of long wait times for information.
