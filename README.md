@@ -1,4 +1,4 @@
-## The Need of the Hour - an Accessibility Device for AI-based Lip Reading
+# The Need of the Hour - an Accessibility Device for AI-based Lip Reading
 -	The hearing impaired have a tough time communicating, because hearing aids can't isolate voices from crowds
 -	Most good hearing aids are beyond the means of the communities of people that need them, with pricetags upwards of 3000$
 -	Sign Language is a viable alternative for communication but it is limited in applicability
