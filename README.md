@@ -19,6 +19,8 @@ The application accepts video in .mpg format.
 ### 5. Releasing video output with text
 The final output is a video with text added onto it. Current applications of LipNet boast upto a 93% accuracy, 14% higher than the average text to speech software available today. 
 
+## Usage
+
 ## A Summary of Technology Used and Our Design Process
 ### Keras, TensorFlow Framework
 ### LipNet Neural Network
@@ -27,15 +29,13 @@ This model uses the GRID corpus (http://spandh.dcs.shef.ac.uk/gridcorpus/) as a 
 ### CUDA
 ### aws
 
-## Usage
-
 ## Potential Future Applications
 - With enough datasets and time, Lip Sync's ability to transpose movement into text could be made nearly instant, and helps students remain engaged instead of catching up to traditional methods of transposing speech which come with the punishment of long wait times for information.
 - Lip Sync could potentially develop into a real time transcribing phone app for ios and android improving accessibility for teh hearing impaired everywhere
 - LipReading software could potentially be used for forensic purposes and for identifying speech in videos through loud noises
 - Lip Sync could additionally be used to create and maintain repositories of speeches and poetry obtained from fragile videotapes.  
 
-# Citations
+### Citations
 1. 'LipNet: End-to-End Sentence-level Lipreading' by Yannis M. Assael, Brendan Shillingford, Shimon Whiteson, and Nando de Freitas (https://arxiv.org/abs/1611.01599).
 2. James Dyson Award - Helen (https://www.jamesdysonaward.org/en-HK/2019/project/helen/)
 3. Implementing Lipnet through Keras (https://github.com/rizkiarm/LipNet)
