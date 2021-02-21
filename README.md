@@ -24,13 +24,13 @@ The final output is a video with text added onto it. Current applications of Lip
 ## A Summary of Technology Used and Our Design Process
 ### Keras, TensorFlow Framework
 ### LipNet Neural Network
-This model uses the GRID corpus (http://spandh.dcs.shef.ac.uk/gridcorpus/) as a dataset for training LipNet. 
+This model uses the GRID corpus (http://spandh.dcs.shef.ac.uk/gridcorpus/) as a dataset for training LipNet. LipNet is a convolutional Neural Network that identifies lip movements in frames and is capable of translating this into characters and words based on phonemes. It was theorized by Yannis et al at Oxford University. The implementation that we chose to use consisted of a series of python packages executed in Keras and made available open source.  
 ### Python NLTK
 ### CUDA
 ### aws
 
 ## Potential Future Applications
-- With enough datasets and time, Lip Sync's ability to transpose movement into text could be made nearly instant, and helps students remain engaged instead of catching up to traditional methods of transposing speech which come with the punishment of long wait times for information.
+- With enough datasets and time, Lip Sync's ability to transpose movement into text could be made nearly instant, and help students remain engaged instead of catching up to traditional methods of transposing speech which come with the punishment of long wait times for information.
 - Lip Sync could potentially develop into a real time transcribing phone app for ios and android improving accessibility for teh hearing impaired everywhere
 - LipReading software could potentially be used for forensic purposes and for identifying speech in videos through loud noises
 - Lip Sync could additionally be used to create and maintain repositories of speeches and poetry obtained from fragile videotapes.  
