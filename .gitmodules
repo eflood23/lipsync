@@ -1,0 +1,3 @@
+[submodule "LipNet"]
+	path = LipNet
+	url = https://github.com/rizkiarm/LipNet
