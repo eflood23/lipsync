@@ -18,6 +18,10 @@ A WordBag is an NLP method of identifying the likeliness of a certain word being
 The final output is a video with text added onto it. Current applications of LipNet boast upto a 93% accuracy, 14% higher than the average text to speech software available today. We believe that This prototype could average a surprisingly high word accuracy of between 60 and 80% that could stretch even to 95%.
 
 ## Usage
+Lip Sync has a simple 3-stage workflow: 
+1. Using a RaspberryPi, Helen records video of speaker. 
+2. It then transmits this video information to a system running LipNet - the AI that performs lip reading 
+3. LipNet analyses the video and outputs a transcription of what was spoken during the video. 
 
 ## A Summary of Technology Used and Our Design Process
 ### Keras, TensorFlow Framework
