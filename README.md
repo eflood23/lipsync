@@ -1,4 +1,4 @@
-# The Need of the Hour - an Accessibility Device for AI-based Lip Reading
+# Communication for All - an Accessibility Device for AI-based Lip Reading
 -	The hearing impaired have a tough time communicating, because hearing aids can't isolate voices from crowds
 -	Most good hearing aids are beyond the means of the communities of people that need them, with pricetags upwards of 3000$
 -	Sign Language is a viable alternative for communication but it is limited in applicability
@@ -25,16 +25,20 @@ Lip Sync has a simple 3-stage workflow:
 
 ## A Summary of Technology Used and Our Design Process
 ### Keras, TensorFlow Framework
+Keras is compact, easy to learn, high-level Python library run on top of TensorFlow framework. It is made with focus of understanding deep learning techniques, such as creating layers for neural networks maintaining the concepts of shapes and mathematical details. LipSync uses a Functional API for Loading the data, Preprocess the loaded data, Defining of model and Compiling it
 ### LipNet Neural Network
 This model uses the GRID corpus (http://spandh.dcs.shef.ac.uk/gridcorpus/) as a dataset for training LipNet. LipNet is a convolutional Neural Network that identifies lip movements in frames and is capable of translating this into characters and words based on phonemes. It was theorized by Yannis et al at Oxford University. The implementation that we chose to use consisted of a series of python packages executed in Keras and made available open source.  
 ### Python NLTK
-### aws
+NLTK is a leading platform for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries. LipSync uses it to implement probabilistic prediction of words using the Text Bag. We also considered using naive bayes or a combinatyion of n-grams but ultimately decided on a Word Bag due to efficiency
+### google cloud / aws
 ```
 print('Listening')
 s3 = boto3.client('s3')
 bucket_name = 'helen-v1bf79919b2e794658b84abfe4dde08f44pkhelenenv-pkhelenenv'
 file_names = []
 ```
+We use a cloud platform ,(aws here) to listen to bucket for existence of mp4 file uploaded from iOS and run prediction on Lipnet stored on EC2. Uploads output.txt file to Bucket
+
 ## Potential Future Applications
 - With enough datasets and time, Lip Sync's ability to transpose movement into text could be made nearly instant, and help students remain engaged instead of catching up to traditional methods of transposing speech which come with the punishment of long wait times for information.
 - Lip Sync could potentially develop into a real time transcribing phone app for ios and android improving accessibility for the hearing impaired everywhere
